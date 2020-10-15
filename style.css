@@ -10,3 +10,46 @@ body{
     font-family:'raleway'/*, 'trebuchet MS', Arial, sans-serif*/;
     color : #181818;
 }
+
+#global{
+    width: auto;
+    margin: auto;
+}
+
+/*Header*/
+#menu img{
+    width:100px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    font-size: 1em;
+}
+/*Menu nav header*/
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #181818;
+    padding-bottom: 3px;
+    margin-top: 30px;
+}
+
+nav a:hover {
+    color: #0065FC;
+    border-top: #0065FC 3px solid;
+}
