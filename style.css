@@ -24,8 +24,7 @@ body{
 #menu{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    align-items: flex-end;
 }
 
 header h1 {
@@ -38,18 +37,25 @@ nav ul{
 }
 
 nav li{
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 nav a {
+    display: block;
     text-decoration: none;
     font-size: 1em;
     color: #181818;
-    padding-bottom: 3px;
-    margin-top: 30px;
+    padding: 20px 15px;
+    margin-top: 4px;
 }
 
 nav a:hover {
     color: #0065FC;
-    border-top: #0065FC 3px solid;
+    border-top: #0065FC 2px solid;
+    margin-top: 2px;
+}
+
+.text_bleue{
+    color : #0065FC;
+    font-weight: bold;
 }
