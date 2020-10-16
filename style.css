@@ -98,4 +98,66 @@ nav a:hover {
     height:40px;
     margin-left: -5px;
 }
+
+/*Filtres*/
+#filtres{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#filtres h2 {
+    font-size: 1em;
+}
+
+#filtres ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#filtres li{
+    margin-right: 20px;
+    border: #F2F2F2 1px solid;
+    border-radius: 20px 20px 20px 20px;
+    padding-right: 10px;
+}
+
+.switch {
+    padding: 10px;
+    background-color: #DEEBFF;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    height:40px;
+    width:40px;
+    margin-left: -5px;
+}
+
+/*test invertion couleur
+.switch :hover {
+    background-color: #0065FC;
+    color: #DEEBFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: -5px;
+}
+*/
+
+.switch :hover {
+    color: white;
+}
+
+#info i {
+    font-size: 0.8em;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    margin-right: 15px;
+    height: 10px;
+    width: 10px;
+    text-align:center;
 }
