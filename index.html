@@ -34,31 +34,37 @@
         <!--Fin du header-->
         <!--Recherche et filtres-->
         <div id="recherche">
-            <i class="fas fa-map-marker-alt"></i>
+            <div id="ico_gps">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
             <input type="text" name="rechercher" placeholder="   Marseille FRANCE">
-            <button class="btn1"><span>Rechercher</span></button>
+            <button class="bouton_recherche">
+                <i class="fas fa-search"></i>
+                <span>Rechercher</span>
+            </button>
         </div>
         <div id="filtres">
             <h2>Filtres</h2>
             <ul>
                 <li>
-                    <i class="fas fa-money-bill-wave"></i>
+                    <button class="switch"><i class="fas fa-money-bill-wave"></i></button>
                     Economique
                 </li>
                 <li>
-                    <i class="fas fa-child"></i>
+                    <button class="switch"><i class="fas fa-child"></i></button>
                     Familial
                 </li>
                 <li>
-                    <i class="fas fa-heart"></i>
+                    <button class="switch"><i class="fas fa-heart"></i></button>
                     Romantique
                 </li>
                 <li>
-                    <i class="fas fa-dog"></i>
+                    <button class="switch"><i class="fas fa-dog"></i></button>
                     Animaux autorisés
                 </li>
             </ul>
         </div>
+        <!--Fin recherche et filtres-->
     </div>
 </body>
 </html>
