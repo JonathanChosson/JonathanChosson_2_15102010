@@ -206,10 +206,15 @@ article h2{
 
 }
 
-.cadre_hebergement img{
+.img_hebergement{
     border-radius: 15px 15px 0px 0px;
     width:230px;
     height: 120px;
+    overflow: hidden;
+}
+
+.cadre_hebergement img{
+    width:230px;
 }
 
 .cadre_hebergement figcaption{
