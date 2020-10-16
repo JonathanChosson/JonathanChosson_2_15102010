@@ -193,6 +193,12 @@ article h2{
     flex: 1 0 100%;
 }
 
+article p{
+    font-size: 1em;
+    font-weight: bold;
+    flex: 1 0 100%;
+}
+
 .cadre_hebergement{
     background-color: white;
     width: 230px;
@@ -215,6 +221,8 @@ article h2{
 
 .cadre_hebergement img{
     width:230px;
+    display: block;
+    margin: auto;
 }
 
 .cadre_hebergement figcaption{
