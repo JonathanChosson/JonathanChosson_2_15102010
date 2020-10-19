@@ -295,3 +295,9 @@ aside p{
     flex-flow: row wrap;
     */
 }
+
+/*Bloc activité*/
+
+#bloc_activite{
+    display: flex;
+}
