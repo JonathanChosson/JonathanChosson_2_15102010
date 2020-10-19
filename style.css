@@ -9,6 +9,7 @@
 body{
     font-family:'raleway'/*, 'trebuchet MS', Arial, sans-serif*/;
     color : #181818;
+    margin: 0px;
 }
 
 #global{
@@ -426,3 +427,4 @@ aside p{
     background-color:white;
     padding-left: 15px;
 }
+
