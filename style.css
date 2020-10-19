@@ -309,6 +309,13 @@ aside p{
     /*justify-content: space-around;*/
 }
 
+.activite_trois {
+    width: 50%;
+    height: 460px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
 #bloc_activite h2{
     font-size: 1em;
     font-weight: bold;
@@ -320,7 +327,7 @@ aside p{
 .cadre_activite_xl{
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 435px;
     border-radius: 15px;
     margin: 15px;
     box-shadow: 5px 5px 5px grey;
@@ -334,12 +341,12 @@ aside p{
 .img_activite_xl{
     border-radius: 15px 15px 0px 0px;
     width:250px;
-    height: 450px;
+    height: 385px;
     overflow: hidden;
 }
 
 .cadre_activite_xl img{
-    height:450px;
+    height:400px;
     display: block;
     margin: auto;
 }
