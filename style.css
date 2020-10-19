@@ -12,7 +12,7 @@ body{
 }
 
 #global{
-    width: auto;
+    width: 1300px;
     margin: auto;
     padding: 20px;
 }
@@ -231,6 +231,8 @@ article p{
     padding-left: 15px;
 }
 
+/*Aside*/
+
 aside{
     background-color: #F2F2F2;
     width: 30%;
@@ -239,6 +241,57 @@ aside{
     border-radius: 20px 20px 20px 20px;
 }
 
+aside h3{
+    font-size: 1em;
+    font-weight: bold;
+    order: -1;
+    flex: 1 0 100%;
+}
+
+aside p{
+    font-size: 1em;
+    font-weight: bold;
+    flex: 1 0 100%;
+}
+
+#populaire_aside{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.cadre_populaires{
+    background-color: white;
+    width: auto;
+    height: 120px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.cadre_populaires figure{
+    margin: 0px;
+    display:flex;
+}
+
+.img_populaires{
+    border-radius: 15px 0px 0px 15px;
+    width:120px;
+    height: 120px;
+    overflow: hidden;
+}
+
 .cadre_populaires img{
-    width:100px;
+    width:230px;
+}
+
+.cadre_populaires figcaption{
+    font-size: 0.8em;
+    background-color:white;
+    padding-left: 20px;
+    /* Test flex
+    display: flex;
+    flex-flow: row wrap;
+    */
 }
