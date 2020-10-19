@@ -299,7 +299,6 @@ aside p{
 /*Bloc activité*/
 
 #bloc_activite{
-    background-color: #F2F2F2;
     width: 98%;
     margin-right: 15px;
     margin-top: 30px;
@@ -307,8 +306,9 @@ aside p{
     border-radius: 20px 20px 20px 20px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 }
+
 #bloc_activite h2{
     font-size: 1em;
     font-weight: bold;
@@ -316,33 +316,70 @@ aside p{
     flex: 1 0 100%;
 }
 
-.cadre_activite{
+/*mise en forme bloc XL*/
+.cadre_activite_xl{
     background-color: white;
-    width: 230px;
+    width: 250px;
     height: 500px;
     border-radius: 15px;
     margin: 15px;
+    box-shadow: 5px 5px 5px grey;
 }
 
-.cadre_activite figure{
+.cadre_activite_xl figure{
     margin: 0px;
 
 }
 
-.img_activite{
+.img_activite_xl{
     border-radius: 15px 15px 0px 0px;
-    width:230px;
+    width:250px;
     height: 450px;
     overflow: hidden;
 }
 
-.cadre_activite img{
+.cadre_activite_xl img{
     height:450px;
     display: block;
     margin: auto;
 }
 
-.cadre_activite figcaption{
+.cadre_activite_xl figcaption{
+    font-size: 0.8em;
+    background-color:white;
+    padding-left: 15px;
+}
+
+/*mise en forme bloc m */
+
+.cadre_activite_m{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.cadre_activite_m figure{
+    margin: 0px;
+
+}
+
+.img_activite_m{
+    border-radius: 15px 15px 0px 0px;
+    width:250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cadre_activite_m img{
+    height:380px;
+    display: block;
+    margin: auto;
+}
+
+.cadre_activite_m figcaption{
     font-size: 0.8em;
     background-color:white;
     padding-left: 15px;
