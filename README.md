@@ -12,6 +12,10 @@ Phase de mise en page en HTML et CSS
 <img src='https://forthebadge.com/images/badges/uses-html.svg' />
 <img src='https://forthebadge.com/images/badges/uses-git.svg' />
 
+## Avancement
+<img src='https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fjonathanchosson.github.io%2FTP_reservia%2F' />
+<img src='https://img.shields.io/github/last-commit/JonathanChosson/TP_Reservia' />
+
 ## Auteur
 <img src='https://img.shields.io/badge/Autor-Chosson Jonathan-blue' />
 
