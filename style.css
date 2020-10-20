@@ -24,14 +24,29 @@ header{
     margin:0px;
 }
 
+#menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #menu img{
     width:100px;
 }
 
-#menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+#menu p {
+    flex: 1 70%;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#inscription{
+    margin-top: 0px;
+    height: 83px;
+    line-height: 73px;
+    vertical-align: middle;
 }
 
 header h1 {
@@ -41,6 +56,8 @@ header h1 {
 nav ul{
     display: flex;
     list-style-type: none;
+    margin-top: 0px;
+    margin-top: 4px;
 }
 
 nav li{
@@ -53,7 +70,7 @@ nav a {
     font-size: 1em;
     color: #181818;
     padding: 20px 15px;
-    margin-top: 4px;
+
 }
 
 nav a:hover {
