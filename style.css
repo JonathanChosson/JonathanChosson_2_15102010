@@ -111,6 +111,10 @@ nav a:hover {
     margin-left: -5px;
 }
 
+.bouton_recherche :hover {
+    color: #DEEBFF;
+}
+
 /*Filtres*/
 #filtres{
     display: flex;
