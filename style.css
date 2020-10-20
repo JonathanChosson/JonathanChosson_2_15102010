@@ -18,6 +18,14 @@ body{
     margin:auto;
 }
 
+.carte{
+    text-decoration: none;
+    color: black;
+}
+
+.carte :visited{
+    color: black;
+}
 /*Header*/
 header{
     padding-left: 20px;
