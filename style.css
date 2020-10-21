@@ -51,6 +51,7 @@ header{
 }
 
 #inscription{
+    display: block;
     margin-top: 0px;
     height: 83px;
     line-height: 73px;
@@ -247,6 +248,7 @@ article p{
 }
 
 .img_hebergement{
+    display: block;
     border-radius: 15px 15px 0px 0px;
     width:230px;
     height: 120px;
@@ -310,6 +312,7 @@ aside p{
 }
 
 .img_populaires{
+    display: block;
     border-radius: 15px 0px 0px 15px;
     width:120px;
     height: 120px;
@@ -374,6 +377,7 @@ aside p{
 }
 
 .img_activite_xl{
+    display: block;
     border-radius: 15px 15px 0px 0px;
     width:250px;
     height: 385px;
@@ -409,6 +413,7 @@ aside p{
 }
 
 .img_activite_m{
+    display: block;
     border-radius: 15px 15px 0px 0px;
     width:250px;
     height: 200px;
@@ -444,6 +449,7 @@ aside p{
 }
 
 .img_activite_s{
+    display: block;
     border-radius: 15px 15px 0px 0px;
     width:250px;
     height: 100px;
