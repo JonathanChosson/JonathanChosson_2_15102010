@@ -248,6 +248,7 @@ article p{
 }
 
 .img_hebergement{
+    display: block;
     border-radius: 15px 15px 0px 0px;
     width:230px;
     height: 120px;
