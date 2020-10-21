@@ -320,12 +320,12 @@ aside p{
     display: block;
     border-radius: 15px 0px 0px 15px;
     width:120px;
-    height: 120px;
+    height: 125px;
     overflow: hidden;
 }
 
 .cadre_populaires img{
-    width:230px;
+    width:190px;
 }
 
 .cadre_populaires figcaption{
