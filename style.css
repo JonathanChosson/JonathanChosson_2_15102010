@@ -312,6 +312,7 @@ aside p{
 }
 
 .img_populaires{
+    display: block;
     border-radius: 15px 0px 0px 15px;
     width:120px;
     height: 120px;
