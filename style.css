@@ -491,3 +491,14 @@ footer ul{
 footer li {
     padding-bottom: 10px;
 }
+
+/*Responsive pour mobile*/
+
+@media screen and (max-width: 425px){
+
+    #global{
+        width: auto;
+        margin:auto;
+    }
+
+}
