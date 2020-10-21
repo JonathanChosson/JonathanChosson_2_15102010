@@ -26,6 +26,21 @@ body{
 .carte :visited{
     color: black;
 }
+
+.text_gras{
+    font-weight: bold;
+}
+
+.text_bleue{
+    color : #0065FC;
+    font-weight: bold;
+}
+
+.text_gris{
+    color : #F2F2F2;
+    font-weight: bold;
+}
+
 /*Header*/
 header{
     padding-left: 20px;
@@ -86,16 +101,6 @@ nav a:hover {
     color: #0065FC;
     border-top: #0065FC 2px solid;
     margin-top: 2px;
-}
-
-.text_bleue{
-    color : #0065FC;
-    font-weight: bold;
-}
-
-.text_gris{
-    color : #F2F2F2;
-    font-weight: bold;
 }
 
 /*Champ recherche*/
