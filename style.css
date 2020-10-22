@@ -523,9 +523,10 @@ footer li {
     }
 
     #inscription{
+        font-weight: bold;
         display: block;
         margin-top: 0px;
-        height: 83px;
+        height: 70px;
         line-height: 73px;
         padding-right: 10px;
     }
