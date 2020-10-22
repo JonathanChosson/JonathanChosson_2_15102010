@@ -644,21 +644,27 @@ footer li {
         font-weight: bold;
     }
 
+    /*cadre_populaire*/
+
+    .cadre_populaires{
+        height: 140px;
+    }
+
     /*cadre hebergement*/
 
     .cadre_hebergement{
         background-color: white;
-        width: 300px;
+        width: 280px;
         border-radius: 15px;
         padding: 5px;
-        margin: 10px;
+        margin: 20px 0px 0px 0px;
         box-shadow: 5px 5px 5px grey;
     }
     
     .img_hebergement{
         display: block;
         border-radius: 15px 15px 0px 0px;
-        width:300px;
+        width:280px;
         height: 120px;
         overflow: hidden;
     }
@@ -703,31 +709,32 @@ footer li {
         border-radius: 20px 20px 20px 20px;
         display: flex;
         flex-flow: row wrap;
+
         /*justify-content: space-around;*/
     }
 
     .activite_trois {
-        width: 100%;
+        width: auto;
         height: auto;
         display: flex;
-        padding-left: 20px;
         flex-flow: row wrap;
+        justify-content: center;
     }
 
     .cadre_activite_xl, .cadre_activite_m, .cadre_activite_s{
         background-color: white;
-        width: 300px;
+        width: 280px;
         height:auto;
         border-radius: 15px;
-        padding: 5px;
-        margin: 10px;
+        padding: 0px;
+        margin: 20px 0px 0px 0px;
         box-shadow: 5px 5px 5px grey;
     }
     
     .img_activite_xl, .img_activite_m, .img_activite_s{
         display: block;
         border-radius: 15px 15px 0px 0px;
-        width:300px;
+        width:280px;
         height: 120px;
         overflow: hidden;
     }
