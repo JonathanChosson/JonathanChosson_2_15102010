@@ -3,7 +3,6 @@
     font-family: 'raleway';
     src: url('./font/Raleway-VariableFont_wght.ttf') format('truetype');
     font-style: normal;
-    font-weight: normal;
 }
 
 body{
@@ -698,9 +697,9 @@ footer li {
     /*activite*/
 
     #bloc_activite{
-        width: 90%;
+        width: auto;
         margin: 0px;
-        padding: 20px;
+        padding: 15px;
         border-radius: 20px 20px 20px 20px;
         display: flex;
         flex-flow: row wrap;
@@ -711,6 +710,7 @@ footer li {
         width: 100%;
         height: auto;
         display: flex;
+        padding-left: 20px;
         flex-flow: row wrap;
     }
 
