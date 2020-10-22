@@ -127,7 +127,7 @@ nav a:hover {
 }
 
 /* Version pc masquage de la loupe */
-.bouton_recherche i {
+#loupe {
     display: none;
 }
 
@@ -498,7 +498,158 @@ footer li {
 
     #global{
         width: auto;
-        margin:auto;
+        margin:0px;
     }
 
+    /*Header*/
+
+    #menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: wrap row;
+    }
+
+    #inscription{
+        display: block;
+        margin-top: 0px;
+        height: 83px;
+        line-height: 73px;
+    }
+
+    nav {
+        order: 2;
+        flex: 1 0 100%;
+    }
+
+    /*Menu nav header*/
+
+    nav ul{
+        padding:0px;
+    }
+
+    nav li{
+        flex-grow: 1;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1em;
+        color: #181818;
+        padding: 20px 15px;
+
+    }
+
+    nav li:hover {
+        color: #0065FC;
+        border-bottom: #0065FC 2px solid;
+        margin-top: 2px;
+    }
+
+    nav a:hover {
+        border-top: white;
+    }
+
+    /*#recherche*/
+
+    #loupe{
+        display: block;
+    }
+
+    .bouton_recherche{
+        padding: 10px;
+        background-color: #0065FC;
+        border-radius: 15px 15px 15px 15px;
+        text-align: center;
+        color: white;
+        border: 1px solid #F2F2F2;
+        height:40px;
+        width: 40px;
+        margin-left: -10px;
+    }
+
+    .bouton_recherche span{
+        display: none;
+    }
+
+    #recherche input{
+        color: black;
+        border: 1px solid #F2F2F2;
+        height:36px;
+        width: 300px;
+        margin-left: -5px;
+    }
+
+    /*Filtres*/
+
+    #filtres{
+        display: flex;
+        flex-flow: wrap row;
+        align-items: center;
+        margin-top: 15px;
+        padding-left: 20px;
+    }
+
+    #filtres ul {
+        display: flex;
+        flex-flow: wrap row;
+        list-style-type: none;
+    }
+
+    /*corp*/
+
+    #corp{
+        display: flex;
+        flex-flow : wrap row;
+        padding-left: 0px;
+    }
+
+    /*article*/
+
+    article {
+        order :2;
+        background-color: white;
+        width: 100%;
+        margin-right: 15px;
+        padding: 15px;
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    /*aside*/
+
+    aside{
+        order:1;
+        background-color: #F2F2F2;
+        width: 100%;
+        margin: 0px;
+        padding : 15px;
+        border-radius: 0px;
+    }
+
+    /*activite*/
+
+    #bloc_activite{
+        width: 100%;
+        margin-right: 15px;
+        margin-top: 30px;
+        margin-left: 15px;
+        padding: 20px;
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        flex-flow: row wrap;
+        /*justify-content: space-around;*/
+    }
+
+    .activite_trois {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
 }
