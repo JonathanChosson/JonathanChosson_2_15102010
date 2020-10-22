@@ -2,8 +2,8 @@
 {
     font-family: 'raleway';
     src: url('./font/Raleway-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
     font-style: normal;
+    font-weight: normal;
 }
 
 body{
@@ -501,6 +501,7 @@ footer li {
         width: auto;
         margin:0px;
         padding: 5px;
+        overflow: hidden;
     }
 
     /*Header*/
@@ -518,6 +519,7 @@ footer li {
 
     #menu p {
         padding-left: 10px;
+        flex : 0 70%
     }
 
     #inscription{
@@ -695,7 +697,7 @@ footer li {
     /*activite*/
 
     #bloc_activite{
-        width: 100%;
+        width: 90%;
         margin: 0px;
         padding: 20px;
         border-radius: 20px 20px 20px 20px;
