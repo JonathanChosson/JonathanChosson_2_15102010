@@ -731,6 +731,7 @@ footer li {
     
     .cadre_activite_xl img, .cadre_activite_m img, .cadre_activite_s img{
         width:300px;
+        height: 140px;
         display: block;
         margin: auto;
     }
