@@ -75,6 +75,7 @@ header{
 
 header h1 {
     font-size: 1em;
+    font-weight: bold;
 }
 /*Menu nav header*/
 nav ul{
@@ -499,6 +500,7 @@ footer li {
     #global{
         width: auto;
         margin:0px;
+        padding: 5px;
     }
 
     /*Header*/
@@ -567,6 +569,18 @@ footer li {
         border-top: white;
     }
 
+    /* header h1 et p */
+
+    header h1 {
+        padding-left: 10px;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    header p {
+        padding-left: 10px;
+    }
+
     /*#recherche*/
 
     #loupe{
@@ -590,6 +604,7 @@ footer li {
     }
 
     #recherche input{
+        font-weight: bold;
         color: black;
         border: 1px solid #F2F2F2;
         height:36px;
@@ -600,6 +615,7 @@ footer li {
     /*Filtres*/
 
     #filtres{
+        font-weight: bold;
         display: flex;
         flex-flow: wrap row;
         align-items: center;
@@ -619,6 +635,36 @@ footer li {
         display: flex;
         flex-flow : wrap row;
         padding-left: 0px;
+    }
+
+    #corp h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    /*cadre hebergement*/
+
+    .cadre_hebergement{
+        background-color: white;
+        width: 300px;
+        border-radius: 15px;
+        padding: 5px;
+        margin: 10px;
+        box-shadow: 5px 5px 5px grey;
+    }
+    
+    .img_hebergement{
+        display: block;
+        border-radius: 15px 15px 0px 0px;
+        width:300px;
+        height: 120px;
+        overflow: hidden;
+    }
+    
+    .cadre_hebergement img{
+        width:300px;
+        display: block;
+        margin: auto;
     }
 
     /*article*/
@@ -650,9 +696,7 @@ footer li {
 
     #bloc_activite{
         width: 100%;
-        margin-right: 15px;
-        margin-top: 30px;
-        margin-left: 15px;
+        margin: 0px;
         padding: 20px;
         border-radius: 20px 20px 20px 20px;
         display: flex;
