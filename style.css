@@ -754,7 +754,7 @@ footer li {
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (min-width: 426px) and (max-width: 800px){
 
     #global{
         width: auto;
