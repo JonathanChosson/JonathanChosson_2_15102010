@@ -753,3 +753,98 @@ footer li {
         padding: 0px;;
     }
 }
+
+@media screen and (max-width: 800px){
+
+    #global{
+        width: auto;
+        margin:0px;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    /*Filtres*/
+
+    #filtres{
+        font-weight: bold;
+        display: flex;
+        flex-flow: wrap row;
+        align-items: center;
+        margin-top: 15px;
+        padding-left: 20px;
+    }
+
+    #filtres ul {
+        display: flex;
+        flex-flow: wrap row;
+        list-style-type: none;
+    }
+
+    /*corp*/
+
+    #corp{
+        display: flex;
+        flex-flow : wrap row;
+        padding-left: 20px;
+    }
+
+    /*article*/
+
+    article {
+        order :2;
+        background-color: white;
+        width: 100%;
+        margin-right: 15px;
+        padding: 15px;
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    /*aside*/
+
+    aside{
+        order:1;
+        display: flex;
+        flex-flow:wrap row;
+        justify-content: center;
+        background-color: #F2F2F2;
+        width: 100%;
+        margin: 0px;
+        padding : 15px;
+        border-radius: 0px;
+    }
+
+    #populaire_aside{
+        flex: 1 100%;
+    }
+
+    /*Hebergement*/
+
+    .cadre_hebergement{
+        box-shadow: 5px 5px 5px grey;
+    }
+
+    /*activite*/
+
+    #bloc_activite{
+        width: auto;
+        margin: 0px;
+        padding: 15px;
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .activite_trois {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+
+}
