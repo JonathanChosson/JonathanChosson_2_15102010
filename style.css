@@ -637,6 +637,7 @@ footer li {
         display: flex;
         flex-flow : wrap row;
         padding-left: 0px;
+        justify-content: center;
     }
 
     #corp h2 {
@@ -654,7 +655,8 @@ footer li {
 
     .cadre_hebergement{
         background-color: white;
-        width: 280px;
+        width: auto;
+        height: auto;
         border-radius: 15px;
         padding: 5px;
         margin: 20px 0px 0px 0px;
@@ -664,7 +666,7 @@ footer li {
     .img_hebergement{
         display: block;
         border-radius: 15px 15px 0px 0px;
-        width:280px;
+        width:auto;
         height: 120px;
         overflow: hidden;
     }
@@ -680,8 +682,9 @@ footer li {
     article {
         order :2;
         background-color: white;
-        width: 100%;
+        width: auto;
         margin-right: 15px;
+        margin-left: 15px;
         padding: 15px;
         border-radius: 20px 20px 20px 20px;
         display: flex;
@@ -709,8 +712,7 @@ footer li {
         border-radius: 20px 20px 20px 20px;
         display: flex;
         flex-flow: row wrap;
-
-        /*justify-content: space-around;*/
+        justify-content: space-around;
     }
 
     .activite_trois {
@@ -723,8 +725,8 @@ footer li {
 
     .cadre_activite_xl, .cadre_activite_m, .cadre_activite_s{
         background-color: white;
-        width: 280px;
-        height:auto;
+        width: auto;
+        height:165px;
         border-radius: 15px;
         padding: 0px;
         margin: 20px 0px 0px 0px;
@@ -734,7 +736,7 @@ footer li {
     .img_activite_xl, .img_activite_m, .img_activite_s{
         display: block;
         border-radius: 15px 15px 0px 0px;
-        width:280px;
+        width:auto;
         height: 120px;
         overflow: hidden;
     }
