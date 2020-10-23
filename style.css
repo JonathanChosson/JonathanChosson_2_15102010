@@ -592,6 +592,10 @@ footer li {
         display: block;
     }
 
+    #recherche{
+        padding-left: 5px;
+    }
+
     .bouton_recherche{
         padding: 10px;
         background-color: #0065FC;
