@@ -124,6 +124,7 @@ nav a:hover {
     border: 1px solid #F2F2F2;
     height:36px;
     margin-left: -5px;
+    font-weight: bold;
 }
 
 /* Version pc masquage de la loupe */
@@ -152,6 +153,7 @@ nav a:hover {
     align-items: center;
     margin-top: 15px;
     padding-left: 20px;
+    font-weight: bold;
 }
 
 #filtres h2 {
@@ -227,7 +229,7 @@ article {
 }
 
 article h2{
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
     order: -1;
     flex: 1 0 100%;
@@ -290,7 +292,7 @@ aside h3{
 }
 
 aside p{
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
     flex: 1 0 100%;
 }
@@ -349,6 +351,7 @@ aside p{
     border-radius: 20px 20px 20px 20px;
     display: flex;
     flex-flow: row wrap;
+    font-weight: bold;
     /*justify-content: space-around;*/
 }
 
