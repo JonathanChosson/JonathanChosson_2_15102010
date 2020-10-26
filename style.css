@@ -68,7 +68,7 @@ header{
     display: block;
     margin-top: 0px;
     height: 83px;
-    line-height: 73px;
+    line-height: 67px;
     vertical-align: middle;
 }
 
@@ -77,15 +77,22 @@ header h1 {
     font-weight: bold;
 }
 /*Menu nav header*/
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    height: 83px;
+}
+
 nav ul{
     display: flex;
     list-style-type: none;
     margin-top: 0px;
-    margin-top: 4px;
 }
 
 nav li{
     margin-right: 20px;
+    border-top: transparent 2px solid;
 }
 
 nav a {
@@ -94,13 +101,12 @@ nav a {
     font-size: 1em;
     color: #181818;
     padding: 20px 15px;
-
+    border-top: transparent 2px solid;
 }
 
 nav a:hover {
     color: #0065FC;
     border-top: #0065FC 2px solid;
-    margin-top: 2px;
 }
 
 /*Champ recherche*/
