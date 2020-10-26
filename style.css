@@ -191,7 +191,7 @@ nav li:hover {
 }
 
 
-#filtres li :hover {
+#filtres li:hover {
     background-color: #0065FC;
     color: #DEEBFF;
 }
