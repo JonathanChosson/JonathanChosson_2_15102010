@@ -572,6 +572,7 @@ footer li {
 
     nav li:hover {
         color: #0065FC;
+        border-top: white;
         border-bottom: #0065FC 2px solid;
         margin-top: 2px;
     }
