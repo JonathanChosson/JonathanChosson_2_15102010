@@ -662,7 +662,7 @@ footer li {
     /*cadre_populaire*/
 
     .cadre_populaires{
-        height: 155px;
+        height: auto;
     }
 
     /*cadre hebergement*/
