@@ -13,7 +13,7 @@ Phase de mise en page en HTML et CSS
 <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
 
 ## Avancement
-<img src='https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fjonathanchosson.github.io%2FTP_reservia%2F' />
+<img src='https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fjonathanchosson.github.io%2FJonathanChosson_2_15102010%2F' />
 <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="CSS Valide !" />
 <img src='https://img.shields.io/github/last-commit/JonathanChosson/TP_Reservia' />
 
